@@ -59,7 +59,7 @@ jobs:
       - name: Inject coi-serviceworker
         run: |
           curl -fsSL -o game/coi-serviceworker.js \
-            https://cdn.jsdelivr.net/gh/gzuidhof/coi-serviceworker@v0.1.7/coi-serviceworker.min.js
+            https://cdn.jsdelivr.net/npm/coi-serviceworker@0.1.7/coi-serviceworker.min.js
 
           python3 - << 'PY'
           import pathlib
